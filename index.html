@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ariel Bruner | Portfolio</title>
+  <meta name="description" content="A portfolio of my works in several fields: resin, wood, laser cutting, 3D printing, embroidery and photography.">
+  <meta property="og:title" content="Ariel Bruner | Portfolio">
+  <meta property="og:description" content="A portfolio of my works in several fields.">
+  <meta name="theme-color" content="#E8ECE9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#141917" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/bricolage-grotesque-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#work">Skip to the work</a>
+
+  <header class="masthead">
+    <div class="wrap">
+      <h1>Ariel Bruner</h1>
+      <div class="intro">
+        <img class="portrait" src="img/profile.webp" width="168" height="126" alt="Ariel Bruner on a couch with a dog">
+        <p>Born in 1989, B.Sc in Computer Science and Math. I dabble with stuff, and want to share what I'm passionate about here.</p>
+      </div>
+    </div>
+  </header>
+
+  <main id="work">
+    <div class="wrap">
+      <h2 class="visually-hidden">Projects</h2>
+      <div class="grid" data-grid></div>
+      <noscript><p>The project cards need JavaScript to display.</p></noscript>
+    </div>
+  </main>
+
+  <footer id="contact">
+    <div class="wrap">
+      <h2>Contact</h2>
+      <p><a href="mailto:arielbruner@gmail.com">arielbruner@gmail.com</a></p>
+    </div>
+  </footer>
+
+  <dialog class="lb" aria-labelledby="lb-title">
+    <div class="lb-top">
+      <p class="lb-text"><strong id="lb-title"></strong> <span class="lb-caption"></span></p>
+      <span class="lb-count" aria-live="polite"></span>
+      <button class="lb-btn lb-close" type="button" aria-label="Close">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <div class="lb-stage">
+      <figure class="lb-figure"></figure>
+      <button class="lb-btn lb-prev" type="button" aria-label="Previous">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+      </button>
+      <button class="lb-btn lb-next" type="button" aria-label="Next">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+      </button>
+    </div>
+    <div class="lb-film" role="group" aria-label="All photos in this project"></div>
+  </dialog>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
