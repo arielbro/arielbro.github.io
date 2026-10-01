@@ -13,9 +13,9 @@
 window.PROJECTS = [
   {
     id: "biology-playing-cards",
-    title: "3D printed playing cards",
+    title: "3D-printed playing cards",
     year: "2026",
-    description: "A 54-card deck made for multi-colour 3D printing, with biology-themed suits: protein, DNA, metabolites and RNA. A script converts any themed design to printable card models, with multi-color printing creating patterns within cards. Printable in-place as a deck with spacers from a different plastic, separating after printing.",
+    description: "A 54-card deck made for multi-color 3D printing, with biology-themed suits: protein, DNA, metabolites and RNA. A script converts any themed design into printable card models, using multiple colors to form patterns within each card. The whole deck prints in place, with spacers of a different plastic that separate from the cards after printing.",
     media: [
       { img: "img/biology-playing-cards/01", w: 1497, h: 2000 },
       { img: "img/biology-playing-cards/02", w: 1497, h: 2000 },
@@ -28,7 +28,7 @@ window.PROJECTS = [
     id: "laser-engraved-portraits",
     title: "Laser-engraved portraits",
     year: "2023–2026",
-    description: "Photographs engraved into wood: A workflow converting photos to a stacked wooden ornament for hanging using laser cutting and engraving.",
+    description: "Photographs engraved into wood: a workflow that turns a photo into a stacked wooden hanging ornament by laser cutting and engraving.",
     media: [
       { img: "img/laser-engraved-portraits/01", w: 1500, h: 2000 },
       { img: "img/laser-engraved-portraits/02", w: 1500, h: 2000 },
@@ -42,30 +42,41 @@ window.PROJECTS = [
   },
   {
     id: "alien-with-bowl",
-    title: "Turned ashtray with a companion Martian.",
+    title: "Turned ashtray with a companion Martian",
     year: "2026",
     coverPos: "50% 72%",
-    description: "A small wooden bowl manually turned on the lathe, held by a bespoke fitted 3D-printed Martian generated with generative design.",
+    description: "A small wooden ashtray hand-turned on the lathe, held by a custom-fitted 3D-printed Martian made with generative design.",
     media: [
       { img: "img/alien-with-bowl/01", w: 1497, h: 2000 },
       { img: "img/alien-with-bowl/02", w: 2000, h: 1497, caption: "On the lathe" },
     ],
   },
   {
+    id: "wood-turning",
+    title: "Wood turning",
+    year: "2026",
+    description: "A cedar bowl turned on the lathe.",
+    media: [
+      { img: "img/wood-turning/01", w: 2000, h: 1497 },
+    ],
+  },
+  {
     id: "stamps",
     title: "Stamps",
     year: "2025–2026",
-    description: "Custom-made stamps. A product of a digitally assisted crafts workshop. Digital designs converted to a 3D-printed molde, cast with silicone rubber.",
+    description: "Custom stamps from a digitally assisted craft workshop: digital designs are 3D-printed as molds and cast in silicone rubber.",
     media: [
-      { img: "img/stamps/01", w: 1506, h: 2000 },
-      { img: "img/stamps/02", w: 1125, h: 2000 , caption: "On display at RoboCon NJ 2026"},
+      { img: "img/stamps/01", w: 1506, h: 2000, caption: "On display at RoboCon NJ 2026" },
+      { img: "img/stamps/02", w: 1125, h: 2000 },
+      { img: "img/stamps/03", w: 1125, h: 2000, caption: "Cast stamps and their molds" },
+      { img: "img/stamps/04", w: 2000, h: 1125, caption: "3D-printed molds" },
     ],
   },
   {
     id: "laser-cut-tiles",
     title: "Laser-cut pattern tiles",
     year: "2023–2025",
-    description: "Wooden tiles cut with a repeating musical pattern using a laser cutter. Epoxy incorporated into design for a stained-glass look.",
+    description: "Wooden tiles laser-cut with a repeating musical pattern. Epoxy is worked into the design for a stained-glass look.",
     media: [
       { img: "img/laser-cut-tiles/01", w: 1497, h: 2000 },
       { img: "img/laser-cut-tiles/02", w: 1500, h: 2000 },
@@ -88,10 +99,10 @@ window.PROJECTS = [
     title: "Netilah",
     year: "2025",
     coverPos: "30% 50%",
-    description: "A pot hangs on its own stream of water, pouring over a pair of hands. Collaboration with Leena Bagawade, sculpting, Genyuan Hu, ceramics. UV resin and epoxy resin modeled to capture a dynamic flow.",
+    description: "A pot hangs on its own stream of water, pouring over a pair of hands. Made with Leena Bagawade (sculpting) and Genyuan Hu (ceramics). The water is UV and epoxy resin, shaped to capture the flow.",
     media: [
       { img: "img/netilah/01", w: 2000, h: 1500 },
-      { img: "img/netilah/02", w: 1500, h: 2000 , caption: "On display at the 2025 Plainsboro Art Group exhibition."},
+      { img: "img/netilah/02", w: 1500, h: 2000, caption: "On display at the 2025 Plainsboro Art Group exhibition" },
     ],
   },
   {
@@ -99,12 +110,15 @@ window.PROJECTS = [
     title: "Wooden spheres",
     year: "2024–2026",
     coverPos: "50% 60%",
-    description: "Machine-created Balls cut from wood and epoxy resin. Original design by FraensEngineering, modified version by me.",
+    description: "Machine-cut balls of wood and epoxy resin. Original design by FraensEngineering, modified by me.",
     media: [
       { img: "img/wooden-spheres/01", w: 1497, h: 2000 },
       { img: "img/wooden-spheres/02", w: 1125, h: 2000 },
       { img: "img/wooden-spheres/03", w: 1497, h: 2000 },
       { img: "img/wooden-spheres/04", w: 2000, h: 913, caption: "On display at RoboCon NJ 2026" },
+      { video: "img/wooden-spheres/v05", poster: "img/wooden-spheres/v05-poster", w: 1920, h: 1080 },
+      { video: "img/wooden-spheres/v06", poster: "img/wooden-spheres/v06-poster", w: 1920, h: 1080 },
+      { video: "img/wooden-spheres/v07", poster: "img/wooden-spheres/v07-poster", w: 1920, h: 1080 },
     ],
   },
   {
@@ -121,7 +135,7 @@ window.PROJECTS = [
     id: "astronaut-spheres",
     title: "Astronaut spheres",
     year: "2025",
-    description: "A strange planet. Generative design 3D-printed scene, with attached moon self-illuminating on magnetic attachment.",
+    description: "A strange planet: a 3D-printed scene made with generative design, with a magnetically attached moon that lights up.",
     media: [
       { img: "img/astronaut-spheres/01", w: 2000, h: 1497 },
       { img: "img/astronaut-spheres/02", w: 2000, h: 1497 },
@@ -131,7 +145,7 @@ window.PROJECTS = [
     id: "framed-mountain-coast",
     title: "Mountain coast in a frame",
     year: "2025",
-    description: "Island in a mirror. A hybrid generative design and clay sculpted terrain, UV and epoxy resin water.",
+    description: "Island in a mirror. The terrain combines generative design and clay sculpting; the water is UV and epoxy resin.",
     media: [
       { img: "img/framed-mountain-coast/01", w: 2000, h: 1497 },
       { img: "img/framed-mountain-coast/02", w: 1497, h: 2000 },
@@ -141,7 +155,7 @@ window.PROJECTS = [
     id: "painted-birds",
     title: "Painted birds",
     year: "2025",
-    description: "3D-printed Bird figures painted by hand and mounted on branches and bases. Taxidermy models courtsey of RISD Nature Lab.",
+    description: "3D-printed bird figures, painted by hand and mounted on branches and bases. Taxidermy models courtesy of the RISD Nature Lab.",
     media: [
       { img: "img/painted-birds/01", w: 1497, h: 2000 },
       { img: "img/painted-birds/02", w: 2000, h: 1497 },
@@ -151,7 +165,7 @@ window.PROJECTS = [
     id: "donation-box-turtles",
     title: "Turtles for a donation box",
     year: "2025",
-    description: "3D-printed Eastern box turtle hand painted for a donation box at The Watershed Institute visitor center. Taxidermy model courtsey of RISD Nature Lab.",
+    description: "A 3D-printed eastern box turtle, hand-painted for a donation box at The Watershed Institute visitor center. Taxidermy model courtesy of the RISD Nature Lab.",
     media: [
       { img: "img/donation-box-turtles/01", w: 2000, h: 1497 },
       { img: "img/donation-box-turtles/02", w: 1497, h: 2000 },
@@ -171,7 +185,7 @@ window.PROJECTS = [
     id: "wooden-and-sculpted-rings",
     title: "Wooden and sculpted rings",
     year: "2024–2025",
-    description: "Hand shaped wooden rings, cast resin rings and generative design 3D printed rings.",
+    description: "Hand-shaped wooden rings, cast resin rings and 3D-printed rings made with generative design.",
     media: [
       { img: "img/wooden-and-sculpted-rings/01", w: 2000, h: 1497 },
       { img: "img/wooden-and-sculpted-rings/02", w: 2000, h: 1497 },
@@ -183,26 +197,27 @@ window.PROJECTS = [
     id: "skull-staff",
     title: "Skull staff",
     year: "2024",
-    description: "An animal skull on a twisted staff dressed for the afterlife. Materials self sourced from The Watershed Institute grounds.",
+    description: "An animal skull on a twisted staff, dressed for the afterlife. Materials gathered on the grounds of The Watershed Institute.",
     media: [
       { img: "img/skull-staff/01", w: 1497, h: 2000 },
       { img: "img/skull-staff/02", w: 1497, h: 2000 },
-      { img: "img/skull-staff/03", w: 1497, h: 2000, caption: "At a craft fair" },
+      { img: "img/skull-staff/03", w: 1497, h: 2000, caption: "At The Watershed Institute winter market" },
     ],
   },
   {
-    id: "great-wave-driftwood",
-    title: "Great Wave driftwood",
-    year: "2024",
-    description: "Wood cambium hand painted as a crushing wave.",
+    id: "elemental-woods",
+    title: "Elemental woods",
+    year: "2024–2025",
+    description: "Wood cambium hand-painted as fire, a crashing wave and a burnt scroll.",
     media: [
-      { img: "img/great-wave-driftwood/01", w: 2000, h: 1497 },
-      { img: "img/great-wave-driftwood/02", w: 2000, h: 1497, caption: "At The Watershed Institute winter market." },
+      { img: "img/elemental-woods/01", w: 1497, h: 2000 },
+      { img: "img/elemental-woods/02", w: 2000, h: 1497 },
+      { img: "img/elemental-woods/03", w: 2000, h: 1497, caption: "At The Watershed Institute winter market" },
     ],
   },
   {
     id: "violins-with-mice",
-    title: "Violins with sleeping cat",
+    title: "Violins with a sleeping cat",
     year: "2024",
     description: "3D-printed string instruments, cozy and perfect for a cat nap.",
     media: [
@@ -214,27 +229,30 @@ window.PROJECTS = [
     id: "live-edge-stands",
     title: "Live-edge stands and cedar pieces",
     year: "2024",
-    description: "Decorative stands for a rustic elegance donor event at The Watershed Institute.",
+    description: "Decorative stands for a Rustic Elegance donor event at The Watershed Institute.",
     media: [
       { img: "img/live-edge-stands/01", w: 2000, h: 1497 },
       { img: "img/live-edge-stands/02", w: 2000, h: 1497 },
       { img: "img/live-edge-stands/03", w: 2000, h: 1497 },
+      { img: "img/live-edge-stands/04", w: 2000, h: 1497 },
     ],
   },
   {
     id: "wood-rings-splash",
     title: "Wood rings with a resin splash",
     year: "2024",
-    description: "Lathe-turned wavy wood with UV and epoxy resin water scene.",
+    description: "Lathe-turned wavy wood with a water scene in UV and epoxy resin.",
     media: [
       { img: "img/wood-rings-splash/01", w: 2000, h: 1500 },
+      { img: "img/wood-rings-splash/02", w: 1500, h: 2000 },
+      { img: "img/wood-rings-splash/03", w: 2000, h: 1500, caption: "Making the splash" },
     ],
   },
   {
     id: "coffee-bean-alien",
     title: "Coffee-bean alien",
     year: "2023",
-    description: "A coffee Martian set in epoxy resin, made for the Grover Mill's Coffee Company.",
+    description: "A coffee Martian set in epoxy resin, made for Grover's Mill Coffee Co.",
     media: [
       { img: "img/coffee-bean-alien/01", w: 1500, h: 2000 },
     ],
@@ -243,20 +261,34 @@ window.PROJECTS = [
     id: "lighthouse-diorama",
     title: "Journey",
     year: "2023",
-    description: "A whittled lighthouse on a rocky shore, wood, rocks and epoxy resin.",
+    description: "A whittled lighthouse on a rocky shore. Wood, rocks and epoxy resin.",
     media: [
       { img: "img/lighthouse-diorama/01", w: 2000, h: 1500 },
-      { img: "img/lighthouse-diorama/02", w: 900, h: 1200, caption: "On display at the 2023 Plainsboro Art Group exhibition." },
+      { img: "img/lighthouse-diorama/02", w: 900, h: 1200, caption: "On display at the 2023 Plainsboro Art Group exhibition" },
+      { img: "img/lighthouse-diorama/03", w: 2000, h: 1500, caption: "Before the resin pour" },
+    ],
+  },
+  {
+    id: "smoke-river",
+    title: "Smoke river",
+    year: "2023",
+    description: "A smoke river piece made from a piece of olive wood.",
+    media: [
+      { img: "img/smoke-river/01", w: 1500, h: 2000 },
+      { video: "img/smoke-river/v02", poster: "img/smoke-river/v02-poster", w: 1080, h: 1920 },
+      { video: "img/smoke-river/v03", poster: "img/smoke-river/v03-poster", w: 480, h: 880 },
+      { video: "img/smoke-river/v04", poster: "img/smoke-river/v04-poster", w: 1920, h: 1080 },
     ],
   },
   {
     id: "tree-of-life",
     title: "New old growth",
     year: "2022",
-    description: "An dead tree hosts new symbolic life. Hand shaped, epoxy resin cast.",
+    description: "A dead tree hosts new symbolic life. Hand-shaped and cast in epoxy resin.",
     media: [
       { img: "img/tree-of-life/01", w: 1497, h: 2000 },
       { img: "img/tree-of-life/02", w: 2000, h: 1500 },
+      { img: "img/tree-of-life/03", w: 1500, h: 2000, caption: "Carving" },
     ],
   },
   {
@@ -277,6 +309,8 @@ window.PROJECTS = [
     media: [
       { img: "img/charred-wood-coast/01", w: 2000, h: 1125 },
       { img: "img/charred-wood-coast/02", w: 2000, h: 1500 },
+      { img: "img/charred-wood-coast/03", w: 1024, h: 768 },
+      { video: "img/charred-wood-coast/v04", poster: "img/charred-wood-coast/v04-poster", w: 1920, h: 1080, caption: "Making the surf" },
     ],
   },
   {
@@ -301,6 +335,9 @@ window.PROJECTS = [
     description: "A round tabletop with agate slices set in red and teal resin.",
     media: [
       { img: "img/resin-side-table/01", w: 1200, h: 1600 },
+      { img: "img/resin-side-table/02", w: 1200, h: 1600 },
+      { img: "img/resin-side-table/03", w: 1200, h: 1600 },
+      { img: "img/resin-side-table/04", w: 2000, h: 1500, caption: "Making the top" },
     ],
   },
   {
