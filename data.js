@@ -327,7 +327,7 @@ window.PROJECTS = [
     title: "Resin side table",
     year: "2022",
     coverPos: "50% 80%",
-    description: "A round tabletop with agate slices set in red and teal resin.",
+    description: "A round tabletop with agate slices set in red and teal resin, collaboration with Yoram Bruner.",
     media: [
       { img: "img/resin-side-table/01", w: 1200, h: 1600 },
       { img: "img/resin-side-table/02", w: 1200, h: 1600 },
