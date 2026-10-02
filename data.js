@@ -177,17 +177,8 @@ window.PROJECTS = [
     ],
   },
   {
-    id: "cloud-dome",
-    title: "Cloud dome",
-    year: "2025",
-    description: "A clear resin dome with blue and white clouds suspended inside.",
-    media: [
-      { img: "img/cloud-dome/01", w: 2000, h: 1497 },
-    ],
-  },
-  {
     id: "wooden-and-sculpted-rings",
-    title: "Wooden and sculpted rings",
+    title: "Rings",
     year: "2024–2025",
     description: "Hand-shaped wooden rings, cast resin rings and 3D-printed rings made with generative design.",
     media: [
@@ -411,13 +402,9 @@ window.PROJECTS = [
       { img: "img/machine-embroidery/10", w: 1455, h: 2000, caption: "Design sheet" },
       { img: "img/machine-embroidery/11", w: 960, h: 1280, caption: "Finished patches" },
       { img: "img/machine-embroidery/12", w: 1494, h: 2000 },
-      { img: "img/machine-embroidery/13", w: 960, h: 1280 },
-      { img: "img/machine-embroidery/14", w: 2000, h: 1852 },
       { img: "img/machine-embroidery/15", w: 1280, h: 1760 },
       { img: "img/machine-embroidery/16", w: 1280, h: 1760 },
       { img: "img/machine-embroidery/17", w: 1280, h: 1760 },
-      { img: "img/machine-embroidery/18", w: 1760, h: 1280 },
-      { img: "img/machine-embroidery/19", w: 1280, h: 1600 },
     ],
   },
   {
