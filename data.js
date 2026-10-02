@@ -102,7 +102,7 @@ window.PROJECTS = [
     title: "Netilah",
     year: "2025",
     coverPos: "30% 50%",
-    description: "A pot hangs on its own stream of water, pouring over a pair of hands. Made with Leena Bagawade (sculpting) and Genyuan Hu (ceramics). The water is UV and epoxy resin, shaped to capture the flow.",
+    description: "A pot hangs on its own stream of water, pouring over a pair of hands. Made with Leena Thakar-Bagawde (sculpting) and Genyuan Hu (ceramics). The water is UV and epoxy resin, shaped to capture the flow.",
     media: [
       { img: "img/netilah/01", w: 2000, h: 1500 },
       { img: "img/netilah/02", w: 1500, h: 2000, caption: "On display at the 2025 Plainsboro Art Group exhibition" },
@@ -119,6 +119,7 @@ window.PROJECTS = [
       { img: "img/wooden-spheres/02", w: 1125, h: 2000 },
       { img: "img/wooden-spheres/03", w: 1497, h: 2000 },
       { img: "img/wooden-spheres/04", w: 2000, h: 913, caption: "On display at RoboCon NJ 2026" },
+      { img: "img/wooden-spheres/08", w: 1497, h: 2000 },
       { video: "img/wooden-spheres/v05", poster: "img/wooden-spheres/v05-poster", w: 1920, h: 1080 },
       { video: "img/wooden-spheres/v06", poster: "img/wooden-spheres/v06-poster", w: 1920, h: 1080 },
       { video: "img/wooden-spheres/v07", poster: "img/wooden-spheres/v07-poster", w: 1920, h: 1080 },
@@ -126,10 +127,10 @@ window.PROJECTS = [
   },
   {
     id: "painted-ganesha",
-    title: "Painted Ganesha",
+    title: "Ganesh chaturthi statue",
     year: "2025",
     coverPos: "50% 22%",
-    description: "A Ganesha statue, painted by hand.",
+    description: "A Ganesha statue sculpted by Leena Thakar-Bagawde, airbrushed for local Ganesh chaturthi celebrations.",
     media: [
       { img: "img/painted-ganesha/01", w: 1497, h: 2000 },
     ],
